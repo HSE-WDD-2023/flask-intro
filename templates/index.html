@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+ <h1>Welcome to my WebApp</h1>
+   <form action="/hello">
+      <input type="text" autocomplete="off" autofocus name="name" placeholder="Enter you name">
+      <button type="submit">Say Hello</button>
+
+   </form>
+   
+{% endblock %}
